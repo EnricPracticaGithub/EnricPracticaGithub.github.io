@@ -1,0 +1,62 @@
+/*Colorets {atributos:valores};*/
+
+h2 {
+color: red;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 22px
+}
+
+dd {
+    color: blue;
+
+}
+
+h3 {
+color: rgb(184, 253, 219);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 26px;
+background-color: rgb(94, 3, 3);
+}
+
+
+ul,ol {
+color: rebeccapurple;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: chartreuse;
+}
+
+dt {
+
+background-image: url('../Images/miguel.jpg');
+background-repeat: no-repeat;
+}
+
+
+dt {
+    color: rgb(234, 0, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px
+    }
+
+    h4 {
+        color: rgb(150, 0, 62);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        background-color: rgb(252, 247, 247);
+        }
+    
+    body {
+
+        background-color: rgb(0, 0, 0);
+    }
+
+    p {
+color: aqua;
+
+
+    }
+
+    h6 {
+
+        color: cadetblue;
+    }

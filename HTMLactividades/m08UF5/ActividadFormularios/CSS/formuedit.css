@@ -1,0 +1,63 @@
+/*Colorets {atributos:valores};*/
+
+
+.Info{
+
+    background-color: rgb(253, 131, 66);
+}
+
+    
+.Infobas{
+    color: blue;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+
+
+.Nacionali{
+
+    background-color: rgb(90, 249, 78);
+}
+
+.Nacionalidad {
+
+    color: orange;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.Estudi{
+
+    background-color: rgb(252, 140, 248);
+}
+   
+.Estudios{
+
+    text-decoration: underline;
+}
+
+
+.Idio{
+
+    background-color: rgb(85, 221, 255);
+}
+   
+.Idiomas {
+    color: red;
+    font-family: cursive;
+    text-decoration: underline;
+    
+}
+
+.Butt{
+
+    background-color: rgb(65, 65, 65);
+}
+   
+
+.errormsg{
+
+    color: red;
+    font-weight: bold;
+}

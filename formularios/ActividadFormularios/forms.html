@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../ActividadFormularios/CSS/formuedit.css">
+    <title>Formulari</title>
+</head>
+
+<body>
+
+    <form class="center" action="../php/server.php">
+<fieldset class="Info">
+    <legend class="Infobas">Información basica</legend>
+<label for="nombre">Nombre</label><br>
+<input type="text" name="nombre" id="nombre">
+<br>
+<br>
+
+<label for="altura">Altura en centimetros</label><br>
+<input type="number" id="altura" name="altura" min="0" max="300" value="183">
+
+<br>
+<br>
+<label for="email">email</label><br>
+<input type="email" placeholder="example@gmail.com" name="email" id="email">
+<br>
+<br>
+<label for="fecha">Fecha nacimiento:</label><br>
+<input type="date" name="fecha" id="fecha">
+<br>
+<br>
+</fieldset>
+
+
+<fieldset class="Nacionali">
+
+    <legend class="Nacionalidad">Nacionalidad</legend>
+
+
+<input type="radio" name="nacionalidad" id="Española" value="Española">
+<label for="Española">HTML</label>
+<input type="radio" name="nacionalidad" id="Comunitario(UE)" value="Comunitario(UE)">
+<label for="Comunitario(UE)">Comunitario</label>
+<input type="radio" name="nacionalidad" id="Nocomunitario" value="No comunitario">
+<label for="Nocomunitario">No comunitario</label>
+</fieldset>
+
+<fieldset class="Estudi">
+<legend class="Estudios">Estudios</legend>
+
+<select name="estudios" id="estudios">
+    <option value="ESO">ESO</option>
+    <option value="GM">GM</option>
+    <option value="GS">GS</option>
+    <option value="Universidad">Universidad</option>
+</select>
+
+</fieldset>
+
+<fieldset class="Idio">
+
+    <legend class="Idiomas">Idiomas</legend>
+
+<input type="checkbox" name="idiomas[]" id="Catálan" value="Catálan">
+<label for="Catálan">Catálan</label>
+
+<input type="checkbox" name="idiomas[]" id="Castellano" value="Castellano">
+<label for="Castellano">Castellano</label>
+
+<input type="checkbox" name="idiomas[]" id="Ingles" value="Ingles">
+<label for="Ingles">Ingles</label>
+
+<input type="checkbox" name="idiomas[]" id="Chino" value="Chino">
+<label for="Chino">Chino</label>
+
+</fieldset>
+
+<fieldset class="Butt">
+<input type="submit" value="Enviar" onclick="Error" name="sendButton" id="SendButt"> <!--Boton inicio-->
+<input type="reset" value="Cancelar" name="Cancelar" id="Cancel"> <!--Boton reset-->
+
+</fieldset>
+
+
+<br>
+
+<a href="../index.html">Volver al index</a>
+    
+<img src="../ActividadFormularios/imatges/validator.jpg" alt="VERI-formulario">
+    
+      
+</form>    
+</body>
+</html>

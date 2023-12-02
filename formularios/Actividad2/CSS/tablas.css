@@ -1,0 +1,158 @@
+        @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+        @font-face {
+          font-family: 'Orbitron';
+          src: url('../CSS/fonts/Orbitron/Orbitron.ttf') format('truetype');
+          font-weight: normal;
+          font-style: normal;
+
+        }
+
+
+        body{
+
+          background-image: url('../imatges/nuvols.jpeg');
+          background-repeat: no-repeat;
+          background-size: 100%;
+        }
+      
+        table {
+            border: 4px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+            margin: auto;
+            margin-top: 90px;
+            
+            width: 70em;
+            font-weight: bold;
+          }
+
+          th {
+
+            border: 4px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            
+          }
+
+        td {
+
+            border: 4px solid black;
+            border-collapse: collapse;
+            padding: 20px;
+            text-align: center;
+            
+          }
+
+            .filtroSCANS {
+
+        font-size: 40px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        
+        font-weight: bold;
+            }
+
+
+            .Bardaji1515{
+              font-family: 'Outfit', sans-serif;
+              text-decoration: underline;
+              font-weight: bold;
+            }
+            
+            .Pedro1615{
+              font-family: 'Outfit', sans-serif;
+              text-decoration: underline;
+              text-decoration-color: black;
+              font-weight: bold;
+            }
+
+            .Durancolor{
+
+              background-color:rgb(255, 251, 0);
+
+            }
+
+            .Campa1516{
+              font-family: 'Orbitron', sans-serif; 
+              text-decoration: underline;
+              font-weight: bold;
+              font-size: 13px;
+            }
+
+
+            
+            .Campacolor{
+
+              background-color:rgb(0, 255, 0);
+
+            }
+
+            .Laura1845{ 
+              text-decoration: underline;
+              font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+              
+            }
+
+            .Montecolor{
+
+              background-color:rgb(0, 229, 255);
+
+            }
+
+            .Bardaji1615{
+
+              font-family: 'Outfit', sans-serif;
+              text-decoration: underline;
+            }
+
+
+            .Bardacolor{
+
+              background-color:rgb(255, 101, 29);
+
+            }
+
+            .Bardicolor{
+
+              background-color:rgb(169, 107, 204);
+
+            }
+
+
+        .Isacolor{
+          background-color:rgba(235, 72, 227, 0.73);
+        }
+
+        .Isa1516{
+
+          text-decoration: underline;
+          font-weight: bold;
+        }
+
+        .global{
+
+        font-weight: bold;
+
+        }
+            .nada{
+
+              background-color: rgb(0, 0, 0);
+            }
+
+
+            .time{
+
+              background-color:rgba(222,222,140);
+
+            }
+
+            .days{
+
+      background-color: rgb(171,78,82);
+      color: rgb(255, 255, 255);
+
+            }
+
+            
